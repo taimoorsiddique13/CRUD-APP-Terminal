@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Entries</h1>
+    <form id="entry-form">
+      <input type="text" id="entry-input" placeholder="Add an entry" required />
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="entries-list"></ul>
+    <div id="edit-section" style="display: none;">
+      <input type="text" id="edit-input" placeholder="Edit your entry" />
+      <button id="edit-save-btn">Save</button>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
